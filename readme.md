@@ -10,10 +10,13 @@ Example of use - [HUGO](https://gohugo.io/) site on [Azure](https://azure.micros
 
 For local development or testing we should use file
 local.settings.json - where inside section `Values` we add 4 parameters
-    "AlgoliaAppId":"Application Id from Algolia site",
-    "AlgoliaAdminKey": "Admin key from algolia site",
-    "AlgoliaIndexName": "Index name from algolia site",
-    "JSON_URL":"https://URL/algolia.json"
+
+​    "AlgoliaAppId":"Application Id from Algolia site",
+​    "AlgoliaAdminKey": "Admin key from algolia site",
+​    "AlgoliaIndexName": "Index name from algolia site",
+​    "JSON_URL":"https://URL/algolia.json"
+
+
 
 For usage in Azure - we should add this parameters to `Application settings`
 
