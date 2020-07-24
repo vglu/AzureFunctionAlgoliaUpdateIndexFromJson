@@ -18,6 +18,8 @@ For usage in Azure - we should add this parameters to `Application settings`
 
 ![Application settings](/static/azure-parameters.png)
 
+You can setup Hugo site hosted on Azure. You can setup Azure DevOps pipeline for Hugo static site to support CI-CD foe static web site. You can use additional step to call algolia index update. In general, this function can be used from Power Shell - Invoke-WebRequest, or from Postman (example below).
+
 ## Deploy
 
 clone this repository, publish azure function from VS code
@@ -30,3 +32,11 @@ Azure extension for VS code `https://code.visualstudio.com/docs/azure/extensions
 
 Too many variants how to use CI/CD with Azure function.
 I have created Azure DevOps project based on GitHub repository and setup Build and Release pipelines from Azure DevOps
+
+## Postman usage
+
+Here is example how to use it from `Postman`
+
+![Headers](/static/postman1.png)
+
+![Body](/static/postman2.png)
